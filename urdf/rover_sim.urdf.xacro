@@ -97,6 +97,10 @@
   <!-- Defining model links. -->
 
   <link
+    name="odom">
+  </link>
+
+  <link
     name="base_link">
     <inertial>
       <origin
