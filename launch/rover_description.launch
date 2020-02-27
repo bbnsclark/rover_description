@@ -1,0 +1,9 @@
+<launch>
+  
+  <param name="robot_description" command="$(find xacro)/xacro '$(find rover_description)/urdf/rover_sim.urdf.xacro' --inorder" />
+  
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher">
+    <param name="use_tf_static" value="true"/>
+  </node>
+
+</launch>
