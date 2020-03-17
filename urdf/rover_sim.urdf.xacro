@@ -28,13 +28,13 @@
 	</inertial>
 	<visual>
 	  <geometry>
-	    <mesh filename="file://$(env HOME)/rover/src/rover_description/meshes/wheel_link.STL" />
+	    <mesh filename="package://rover_description/meshes/wheel_link.STL" />
 	  </geometry>
 	  <material name="black" />
 	</visual>
       <collision>
         <geometry>
-          <mesh filename="file://$(env HOME)/rover/src/rover_description/meshes/wheel_link_simple.STL" />
+          <mesh filename="package://rover_description/meshes/wheel_link_simple.STL" />
         </geometry>
       </collision>
         </link>
@@ -74,7 +74,7 @@
       </inertial>
       <visual>
         <geometry>
-          <mesh filename="file://$(env HOME)/rover/src/rover_description/meshes/antenna_link.STL" />
+          <mesh filename="package://rover_description/meshes/antenna_link.STL" />
         </geometry>
         <material name="black" />
       </visual>
@@ -118,7 +118,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="file://$(env HOME)/rover/src/rover_description/meshes/chassis_link.STL" />
+        <mesh filename="package://rover_description/meshes/chassis_link.STL" />
       </geometry>
       <material name="gray" />
     </visual>
@@ -150,7 +150,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="file://$(env HOME)/rover/src/rover_description/meshes/top_link.STL" />
+        <mesh filename="package://rover_description/meshes/top_link.STL" />
       </geometry>
       <material name="white" />
     </visual>
@@ -174,7 +174,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="file://$(env HOME)/rover/src/rover_description/meshes/battery_link.STL" />
+        <mesh filename="package://rover_description/meshes/battery_link.STL" />
       </geometry>
       <material name="black" />
     </visual>
@@ -198,7 +198,7 @@
     </inertial>
     <visual>
       <geometry>
-        <mesh filename="file://$(env HOME)/rover/src/rover_description/meshes/housing_link.STL" />
+        <mesh filename="package://rover_description/meshes/housing_link.STL" />
       </geometry>
       <material name="black" />
     </visual>
