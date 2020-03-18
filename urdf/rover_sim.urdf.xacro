@@ -96,9 +96,9 @@
 
   <!-- Defining model links. -->
 
-  <link
+  <!-- <link
     name="base_footprint">
-  </link>
+  </link> -->
 
   <link
     name="base_link">
@@ -216,11 +216,11 @@
 
   <!-- Defining model joints. -->
 
-  <joint name="base_joint" type="fixed">
+  <!-- <joint name="base_joint" type="fixed">
     <parent link="base_footprint"/>
     <child link="base_link"/>
     <origin xyz="0.0 0 0.1" rpy="0 0 0"/>
-  </joint>
+  </joint> -->
 
   <joint name="scan_joint" type="fixed">
     <parent link="top_link"/>
